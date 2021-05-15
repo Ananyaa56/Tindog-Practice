@@ -2,27 +2,28 @@ body {
   font-family: "Montserrat";
 }
 
+/* Section Title */
 #title {
   background-color: #ff4c68;
   color: #fff;
-  padding-bottom: 0 0 4% ;
 }
 
 .container-fluid-title {
-  padding: 3% 10% 7%;
+  padding: 4% 10%;
 }
 
 h1 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 3.5rem;
+  font-size: 3.2rem;
   line-height: 1.5;
   font-weight: 900;
 }
 
 .dating-img {
   position: absolute;
-  right: 3%;
-  width: 90%;
+  right: 2%;
+  bottom: 1%;
+  width: 100%;
 }
 
 @media (max-width:1150px) {
@@ -38,7 +39,6 @@ h1 {
   #title {
     text-align: center;
   }
-
 }
 
 /* Navbar */
@@ -58,7 +58,7 @@ h1 {
 }
 
 .nav-link {
-  font-size: 1.4rem;
+  font-size: 1.1rem;
   font-family: "Montserrat-Thin", sans-serif;
 }
 
@@ -72,7 +72,7 @@ h1 {
   padding: 0.3rem;
 }
 
-/* Features */
+/* Section Features */
 #features {
   text-align: center;
   padding: 5% 10%;
@@ -80,7 +80,6 @@ h1 {
 
 .fas {
   background: linear-gradient(to bottom right, #e83337, #ee868a);
-  /* background: -webkit-gradient(linear, left top, left bottom, from(#e83337), to(#ee868a)); */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -95,11 +94,11 @@ h3 {
   padding: 1.5rem 0 0.5rem;
   margin-bottom: 0;
   font-weight: 900;
-  font-size: 1.6rem;
+  font-size: 1.3rem;
 }
 
 p {
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: #8f8f8f;
 }
 
@@ -107,9 +106,8 @@ p {
   padding: 5%;
 }
 
-/* Testimonials */
+/* Section Testimonials */
 #testimonials {
-  /* padding: 4% 10%;  */
   text-align: center;
   background-color: #ff817f;
   color: white;
@@ -144,7 +142,7 @@ p {
   }
 }
 
-/* Press */
+/* Section Press */
 #press {
   padding: 3% 0;
   text-align: center;
@@ -156,7 +154,7 @@ p {
   margin: 3rem 1.5rem 1.5rem 1.5rem;
 }
 
-/* Pricing */
+/* Section Pricing */
 #pricing {
   padding: 5% 10%;
   text-align: center;
@@ -193,14 +191,14 @@ p {
   background: linear-gradient(to bottom right, #e83337, #ee868a);
 }
 
-/* Call to Action */
+/* section Call to Action */
 #cta {
   padding: 3% 10%;
   text-align: center;
   background-color: #ff4c68;
 }
 
-.cta-text{
+.cta-text {
   color: #fff;
   padding: 2rem;
   margin-bottom: 0;
@@ -215,13 +213,12 @@ h5 {
   padding-bottom: 1.5rem;
 }
 
-/*Footer */
-
-#footer{
+/* Section Footer */
+#footer {
   padding: 4% 10% 0;
   text-align: center;
 }
 
-.myenvelope{
-  background-color: #000;
+.myenvelope {
+  color: #000;
 }
